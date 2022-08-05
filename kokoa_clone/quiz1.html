@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"/>
+        <title>Home - My first wevsite.</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="This is my wepsite"/>
+    </head>
+    <body>
+        <div>
+            <h1>Create An Account</h1>
+        </div>
+    
+    <form>
+        <div>
+            <label for="first-name">First name</label>
+            <input id="first-name" required placeholder="First name" type="text"/>
+        </div>
+        
+        <div>
+            <label for="last-name">Last name</label>
+            <input id="last-name" required placeholder="Last Name" type="text"/>
+        </div>
+
+        <div>
+            <label for="user-name">Username</label>
+            <input id="user-name" required placeholder="User Name" type="text"/>
+        </div>
+    
+        <div>
+            <label for="email">Email</label>
+            <input id="email" required placeholder="Email" type="email"/>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input id="password" required placeholder="Passwrod"  minlength="10" type="password"/>
+        </div>
+        
+        <div>
+            <label for="Birth-date">Birth date</label>
+            <input id="Birth-date" required placeholder="Email" type="date"/>
+        </div>
+
+        <div>
+            <label for="range">How happy are you?</label>
+            <input id="range" required placeholder="Email" type="range" list="level"/>
+            <datalist id="level">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+              </datalist>
+        </div>
+
+        <div>
+            <label for="color">What is your fav. color</label>
+            <input id="color" required type="color"/>
+        </div>
+
+        <div>
+            <input required type="submit" value="Create Account"/>
+        </div>
+    </form>
+
+    </body>
+</html>
